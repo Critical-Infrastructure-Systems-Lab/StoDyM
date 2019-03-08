@@ -6,7 +6,7 @@ For a given check dam system (dams' location and storage capacity) in the stream
 * ste_tv: Threshold value of Sediment Trapping Efficiency (STE). It is given as 10% by threshold value.
 * (dle_min, dle_max): First and second components of the dams' minimum and maximum life expectancy in years, respectively. 
 * (csw_kg, s_sg): Fist component is the conversion of sediment mass unit to Kg and the second one is the sediment specific gravity in Kg/m<sup>3</sup>. For the present example, sediment mass is converted from Ton to Kg as 907.185, and the sediment specific gravity 2.65 is converted to 2650 Kg/m<sup>3</sup>
-* sc_fn: File name of stream characteristics data (e.g., Shejiagou_Stream_Characteristics.xlsx), which contains the required information of each stream segment with the columns
+* sc_fn: File name of stream characteristics data (e.g., Shejiagou_Stream_Characteristics.xlsx), which contains the required information of each stream segment with the columns (please see the "GIS_Data" folder of flow accumulation ("S_FA.tif"), stream link ("S_SL.tif"), and potential dams' location ("S_pdl.shp") for better understanding)
   * SID: Identification number of the stream segment
   * NSID: Identification number of the next connected downstream segment 
   * DFA: Flow accumulation value at the potential dam location (extracted from the flow accumulation raster)
